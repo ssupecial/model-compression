@@ -5,6 +5,7 @@ import random
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import mean_squared_error, r2_score
 
 
 def set_seed(seed):
